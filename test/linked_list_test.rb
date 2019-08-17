@@ -97,7 +97,7 @@ describe LinkedList do
             expect(@list.length).must_equal 3
         end
         
-        it "will return `nil` for `getLast` if the list is empty" do
+        it "will return `nil` for `get_last` if the list is empty" do
             # Act-Assert
             expect(@list.get_last).must_be_nil
         end
